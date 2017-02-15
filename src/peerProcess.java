@@ -10,13 +10,11 @@ public class peerProcess {
     private static final Log logger = new Log();
 
     public static void main(String[] args) throws IOException {
-        logger.init();
-        System.out.printf("damn");
-        //log.info("invalid number of cmd line arguments");
-        logger.logInfo("oh yeah!");
-        System.out.printf("damn again");
+        Log.init();
 
-        Constants consst = new Constants();
+        logger.logInfo("");
+
+        Constants constants = new Constants();
         ConfigHandler handle = new ConfigHandler();
     }
 
