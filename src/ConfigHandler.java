@@ -6,5 +6,6 @@ public class ConfigHandler {
 
     ConfigHandler(){
         logger.logInfo("Config Constructor called");
+        logger.tcpConnection(1,2);
     }
 }
