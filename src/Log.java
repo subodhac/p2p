@@ -10,7 +10,7 @@ public class Log{
     private static SimpleFormatter simpleFormatter;
 
     //Log file Name
-    private static final String filename = "log_peer_1001.log";
+    private static final String filename = "src/log_peer_1001.log";
 
     //Number of log files
     private static final int count= 1;

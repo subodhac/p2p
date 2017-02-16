@@ -5,5 +5,4 @@ public class Constants {
 	Constants(){
 		logger.logInfo("Consts Constructor called");
 	}
-
 }
